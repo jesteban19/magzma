@@ -1,0 +1,437 @@
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 1366px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1366px) {
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 1280px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1280px) {
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 1024px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+    #main-wrapper .container {
+        width: 960px;
+    }
+
+    /* Post List Style 2 */
+    .post-list-2-wrapper .post-list-2-inner-content .post-content {
+        padding: 20px;
+    }
+    .post-list-2-inner-content .post-content h3.blog-title {
+        font-size: 20px;
+    }
+    .post-list-2-wrapper .post-list-2-inner-content .post-meta .post-author-name, 
+    .post-list-2-wrapper .post-list-2-inner-content .post-meta .post-date, 
+    .post-list-2-wrapper .post-list-2-inner-content .post-meta .time-read {
+        font-size: 11px;
+        margin-right: 10px;
+    }
+
+    /* Single Post */
+    .blog .blog-single h1.post-title {
+        font-size: 27px;
+    }
+
+    /* Footer Widget */
+    .footer-widget-wrapper .footer-widget {
+        margin-top: 3rem;
+    }
+    .footer-widget-wrapper .footer-widget:first-child {
+        margin-top: 0;
+    }
+    .footer-widget h2.widget-title {
+        font-size: 27px;
+    }
+
+    /* Footer Style 2 */
+    #main-wrapper .footer-style-2 .footer-bottom .copyright-text {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #main-wrapper .footer-style-2 .footer-bottom .footer-menu-wrap {
+        float: none;
+        text-align: center;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 992px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 992px) {
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Min Width 768px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (min-width: 769px) {
+    .column {
+        display: inline-block;
+        float: left;
+    }
+    .column-1 {
+        width: 100%;
+    }
+
+    .column-2 {
+        width: 50%;
+    }
+
+    .column-3 {
+        width: 33.33333%;
+    }
+
+    .column-2of3 {
+        width: 66.66667%;
+    }
+
+    .column-4 {
+        width: 25%;
+    }
+
+    .column-5 {
+        width: 20%;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 768px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    #main-wrapper .container {
+        width: 100%;
+        padding: 0 30px 0 30px;
+        box-sizing: border-box;
+    }
+
+    /* Top Menu */
+    .top-bar #top-social {
+        float: none;
+    }
+    #top-social ul li:first-child {
+        margin-left: 0;
+    }
+
+    /* Logo */
+    #header .logo {
+        float: none;
+        display: table;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    #header .banner-ads{
+        margin-top: 0;
+    }
+
+    /* Mobile Menu */
+    #header .mobile-menu {
+        display: block;
+    }
+    ul.sm-clean, #main-wrapper.header-style-2 .main-menu > ul {
+        display: none;
+    }
+    #main-wrapper .header-wrap .container {
+        padding: 0;
+    }
+    #primary-menu ul.sm-clean.menu-active {
+        display: block;
+    }
+    #primary-menu ul.sm-clean > li {
+        margin-left: 0;
+    }
+    #primary-menu ul.sm-clean > li > a {
+        font-size: 14px;
+        padding: 12px 0 12px 30px;
+        border-bottom: 1px solid #0a0a0a;
+    }
+    #primary-menu ul.sm-clean > li > a span.sub-arrow {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0;
+        width: 47px;
+        height: 48px;
+        line-height: 48px !important;
+        border-radius: 0;
+        background-color: #0a0a0a;
+    }
+    .sm-clean ul.sub-menu {
+        background-color: #0a0a0a;
+    }
+    #primary-menu .sm-clean ul.sub-menu li a {
+        color: #ffffff;
+        padding: 7px 30px;
+        margin-left: 10px;
+        border: 0;
+        font-size: 13px;
+    }
+    #primary-menu .sm-clean ul.sub-menu li a:hover {
+        opacity: 0.7;
+    }
+
+    /* Header Style 1 */
+    .header-style-1 #header .logo-image img,
+    .header-style-1 #header .logo-title {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* Header Style 2 */
+    #main-wrapper.header-style-2 .main-menu > ul > li {
+        display: block;
+    }
+
+    /* Header Style 3 */
+    .header-style-3 #header .container {
+        padding: 0; 
+    }
+    #body .header-style-3 #header {
+        border-bottom: none;
+    }
+    #body .header-style-3 .header-wrap {
+        float: none;
+        background-color: #000000;
+    }
+    #body .header-style-3 .header-wrap ul.sm-clean > li > a {
+        color: #ffffff;
+    }
+    .header-style-3 #header .logo-image {
+        padding-top: 0;
+    }
+
+    .header-style-3 #header .logo-image img {
+        margin: 0 auto;
+    }
+
+    /* Main News 1 & 2 */
+    .main-news-1 .article-wrap,
+    .elementor-widget-magzma-main-news-2 .post-list {
+        float: none !important;
+    }
+
+    /* Main News 3, 4 & 5 */
+    .main-news-3 .post-list,
+    .main-news-4 .post-list,
+    .main-news-5 .post-list {
+        float: none !important;
+        width: 100%;
+    }
+
+    .main-news-5 .post-thumb img {
+        width: 100%;
+    }
+
+    /* Post List Style 2 */
+    .post-list-2-wrapper .post-list-2-inner-content .post-block {
+        width: 100%;
+        float: none;
+    }
+    .post-list-2-wrapper .post-list-2-inner-content .post-content {
+        padding: 40px;
+        position: relative;
+        width: 100%;
+    }
+    .post-list-2-wrapper .post-list-2-inner-content a.read-more {
+        position: relative;
+        bottom: 0;
+    }
+
+    /* Post List Style 3, 4 */
+    article.post-list-3,
+    article.post-list-4 {
+        float: none !important;
+    }
+
+    .post-list-4 .post-thumb img {
+        width: 100%;
+    }
+
+    /* Author Template */
+    .archives .author-box figure.author-ava {
+        max-width: 100px;
+    }
+    .author-box .author-desc h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .archives .author-box .author-desc .social-profile ul li a {
+        font-size: 16px;
+        padding-top: 9px;
+        width: 34px;
+        height: 25px;
+    }
+
+    /* Single Post */
+    .blog-single .next-prev-post .prev-post, .blog-single .next-prev-post .next-post {
+        text-align: center;
+        float: none;
+    }
+
+    /* Sidebar */
+    #primary-sidebar.sidebar {
+        padding-left: 15px;
+        margin-top: 40px;
+    }
+
+    /* Sidebar - Latest Post with Featured Image */
+    .widget.widget_magzma_news .post-item .post-thumb img {
+        width: 100%;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 640px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 640px) {
+    /* Error404 Page */
+    .error404 .not-found {
+        padding: 0;
+        text-align: center;
+    }
+
+    /* Standard Gallery Slider */
+    .format-gallery .standard-swiper-slider .slider-pagination i {
+        width: 40px;
+        height: 40px;
+        line-height: 50px;
+        font-size: 24px;
+    }
+
+    /* Running News */
+    .running-news {
+        text-align: center;
+        border-radius: 0 !important;
+        padding: 10px 20px;
+    }
+    .running-news .running-news-head {
+        float: none;
+        margin: 0;
+    }
+    .running-news .running-news-inner-content {
+        margin-top: 15px;
+        padding: 0;
+    }
+    .running-news-pagination {
+        display: none;
+    }
+
+    /* Author Template */
+    .author-box .author-desc p {
+        font-size: 14px;
+    }
+
+    /* Main News 5 */
+    .main-news-5 .post-thumb img {
+        width: 100%;
+    }
+
+    /* Post List 1 */
+    .post-list-1 .post-thumb img {
+        width: 100%;
+    }
+
+    /* Post List 4 */
+    .post-list-4 .post-thumb img {
+        width: 100%;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 480px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+    /* Top Bar */
+    .top-bar #top-social ul {
+        float: none;
+        text-align: center;
+    }
+    .top-bar #top-social .search-form {
+        float: none;
+        margin-left: 0;
+        padding: 0 0 10px 0;
+    }
+
+    /* Error404 Page */
+    .error404 .not-found h1 {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+    .error404 .not-found h1:before {
+        font-size: 110px;
+        top: -30px;
+    }
+
+    /* Meta - Post Author */
+    .blog .blog-single .post-meta span.author {
+        float: none;
+        width: 100%;
+    }
+    .blog .blog-single .post-meta span.right-section {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+
+    /* Share */
+    .share-section .social-share-wrapper .facebook, .share-section .social-share-wrapper .twitter {
+        display: block;
+    }
+    .share-section .social-share-wrapper a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Widget Newsletter */
+    .newsletter-wrap .newsletter-head {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    /* Single Post Style 2 */
+    .single-post-style-2 .single-post-style-2-inner-content h1.post-title {
+        font-size: 22px;
+    }
+
+    /* Single Post Style 3 */
+    .single-post-style-3 .single-post-style-3-inner-content h1.post-title {
+        font-size: 22px;
+    }
+
+    /* Single Post Style 4 */
+    .single-post-style-4 .single-post-style-4-inner-content h1.post-title {
+        font-size: 22px;
+    }
+
+    /* Post List Style 2 */
+    .post-list-2-wrapper .post-list-2-inner-content .post-content {
+        padding: 30px;
+    }
+
+    /* Author Template */
+    .archives .author-box {
+        padding: 20px;
+    }
+    .archives .author-box figure.author-ava {
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .author-desc {
+        text-align: center;
+    }
+    .archives .author-box .author-desc .social-profile ul li {
+        float: none;
+        display: inline-block;
+        margin-right: 5px;
+    }
+}

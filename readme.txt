@@ -1,0 +1,4 @@
+Magzma is an high performance WordPress magazine theme with design and functional supported for it. Suitable for magazine, news, blog, with video and gallery post supported. Magzma uses drag and drop page builder for built the page elements, make you easier to arrange your layout. This theme also support many different layout for your post categories. Header and footer type select option also served.
+
+Magzma will show off your work with this easy-to-customize and fully featured Site Template. 
+Customizing is easy even for beginners, but if you need help with customizing or setting up this theme, we will be glad to help you.  Just contact us via our support tab.
