@@ -148,7 +148,7 @@ function magzma_ads_wdscript()
 /*  CALL FRAMEWORK
 /*-----------------------------------------------------------------------------------*/
 require_once get_template_directory() . '/extra/import-function.php';
-require_once get_template_directory() . '/inc/option/panel/config-free.php';
+require_once get_template_directory() . '/inc/option/panel/config.php';
 /*-----------------------------------------------------------------------------------*/
 /*  MENU
 /*-----------------------------------------------------------------------------------*/
