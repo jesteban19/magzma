@@ -1,25 +1,39 @@
-<?php 
+<?php
 
+/**
+ * Function fixed error when call get_theme_mod, return NULL , it is fixed it error.
+ * @param $options_social
+ * @param $name
+ * @param string $default
+ * @return string
+ */
+function get_theme_mod_fix($options_social,$name, $default=''){
+    if(!isset($options_social[$name]) || empty($options_social[$name]))
+        return $default;
+    else
+        return $options_social[$name];
+}
 function magzma_social_profile() {
+    // name "magzma_framework" in database for profile social
+    $options_social = get_option('magzma_framework');
 
-
-	$twitter	= get_theme_mod( 'magzma_twitter_link', esc_url( '#' ) );
-	$facebook	= get_theme_mod( 'magzma_facebook_link', esc_url( '#' ) );
-	$linkedin	= get_theme_mod( 'magzma_linkedin_link' );
-	$google		= get_theme_mod( 'magzma_google_link', esc_url( '#' ) );
-	$pinterest	= get_theme_mod( 'magzma_pinterest_link' );
-	$dribble	= get_theme_mod( 'magzma_dribble_link' );
-	$youtube	= get_theme_mod( 'magzma_youtube_link', esc_url( '#' ) );
-	$codepen	= get_theme_mod( 'magzma_codepen_link' );
-	$dropbox	= get_theme_mod( 'magzma_dropbox_link' );
-	$github		= get_theme_mod( 'magzma_github_link' );
-	$instagram	= get_theme_mod( 'magzma_instagram_link', esc_url( '#' ) );
-	$skype		= get_theme_mod( 'magzma_skype_link' );
-	$steam		= get_theme_mod( 'magzma_steam_link' );
-	$tumblr		= get_theme_mod( 'magzma_tumblr_link' );
-	$vimeo		= get_theme_mod( 'magzma_vimeo_link' );
-	$wordpress	= get_theme_mod( 'magzma_wordpress_link' );
-	$yahoo		= get_theme_mod( 'magzma_yahoo_link' );
+	$twitter	= get_theme_mod_fix( $options_social,'twitter_profile', esc_url( '#' ) );
+	$facebook	= get_theme_mod_fix( $options_social,'facebook_profile', esc_url( '#' ) );
+	$linkedin	= get_theme_mod_fix( $options_social,'linkedin_profile' );
+	$google		= get_theme_mod_fix( $options_social,'google_profile', esc_url( '#' ) );
+	$pinterest	= get_theme_mod_fix( $options_social,'pinterest_profile' );
+	$dribble	= get_theme_mod_fix( $options_social,'dribble_profile' );
+	$youtube	= get_theme_mod_fix( $options_social,'youtube_profile', esc_url( '#' ) );
+	$codepen	= get_theme_mod_fix( $options_social,'codepen_profile' );
+	$dropbox	= get_theme_mod_fix( $options_social,'dropbox_profile' );
+	$github		= get_theme_mod_fix( $options_social,'github_profile' );
+	$instagram	= get_theme_mod_fix( $options_social,'instagram_profile');
+	$skype		= get_theme_mod_fix( $options_social,'skype_profile' );
+	$steam		= get_theme_mod_fix( $options_social,'steam_profile' );
+	$tumblr		= get_theme_mod_fix( $options_social,'tumblr_profile' );
+	$vimeo		= get_theme_mod_fix( $options_social,'vimeo_profile' );
+	$wordpress	= get_theme_mod_fix( $options_social,'wordpress_profile' );
+	$yahoo		= get_theme_mod_fix( $options_social,'yahoo_profile' );
 
 	if (!empty($twitter)) { ?>
 		<li class="twitter soc-icon"><a target="_blank" href="<?php echo esc_url( $twitter ); ?>" title="<?php esc_html_e( 'Twitter', 'magzma' ); ?>" class="icon-social-twitter"></a></li>
